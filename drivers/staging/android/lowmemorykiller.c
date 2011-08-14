@@ -121,8 +121,7 @@ static int lowmem_shrink(int nr_to_scan, gfp_t gfp_mask)
     }
 
 	for (i = 0; i < array_size; i++) {
-		if (other_free < lowmem_minfree[i] &&
-		    other_file < lowmem_minfree[i]) {
+		if (other_file < lowmem_minfree[i]) {
 			min_adj = lowmem_adj[i];
 			break;
 		}
