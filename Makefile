@@ -1,7 +1,7 @@
 VERSION = 2
 PATCHLEVEL = 6
 SUBLEVEL = 32
-EXTRAVERSION = .9-NeoKernel
+EXTRAVERSION = .9-NeoBlaze
 NAME = Man-Eating Seals of Antiquity
 
 # *DOCUMENTATION*
