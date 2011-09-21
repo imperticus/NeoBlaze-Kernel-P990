@@ -71,8 +71,9 @@ typedef struct NvOdmTouchDeviceRec *NvOdmTouchDeviceHandle;
 #ifdef CONFIG_MACH_STAR
 #define FEATURE_LGE_TOUCH_CUSTOMIZE
 //#define FEATURE_LGE_TOUCH_DUAL_SUPPORT	// 20101113 joseph.jung@lge.com prevent chip damage, only use synaptics touch
-#define FEATURE_LGE_TOUCH_GRIP_SUPPRESSION
+//#define FEATURE_LGE_TOUCH_GRIP_SUPPRESSION
 #define FEATURE_LGE_TOUCH_EXPAND_HIDDEN_ACTIVE_AREA
+#define FEATURE_LGE_TOUCH_LCD_ACTIVE_CROP
 #define FEATURE_LGE_TOUCH_MOVING_IMPROVE	// 20101018 hyeongwon.oh@lge.com [STAR] apply touch moving improve
 #endif
 
