@@ -317,6 +317,7 @@ static int tegra_touch_thread(void *pdata)
 	NvU16 pressed_button_type = KEY_REJECT;
 
 	NvU8 grip_suppression_value = 0;
+	NvU8 touch_active_crop = 1;
 	NvU8 valid_fingers = 0;
 	
 	NvU8 lcd_finger_num = 0;
